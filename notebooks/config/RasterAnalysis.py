@@ -19,7 +19,7 @@ class Configuration:
         self.output_prefix = 'det_'
         self.output_shapefile_type = '.shp'
         self.overwrite_analysed_files = False
-        self.output_dtype='float32'
+        self.output_dtype='uint8'
 
         # Variables related to batches and model
         self.BATCH_SIZE = 200 # Depends upon GPU memory and WIDTH and HEIGHT (Note: Batch_size for prediction can be different then for training.
