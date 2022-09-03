@@ -7,19 +7,19 @@ class Configuration:
     def __init__(self):
         
         # Input related variables
-        self.input_image_dir = ''
+        self.input_image_dir = '/home/ubuntu/data/indata'
         self.input_image_type = '.tif'
         self.ndvi_fn_st = 'ndvi_'
         self.pan_fn_st = 'pan_'
-        self.trained_model_path = ''
+        self.trained_model_path = '/home/ubuntu/data/trained_model/sahel_sudan_v1_0_0.h5'
 
         # Output related variables
-        self.output_dir = ''
+        self.output_dir = '/home/ubuntu/data/outdata'
         self.output_image_type = '.tif'
         self.output_prefix = 'det_'
         self.output_shapefile_type = '.shp'
         self.overwrite_analysed_files = False
-        self.output_dtype='uint8'
+        self.output_dtype='float32'
 
         # Variables related to batches and model
         self.BATCH_SIZE = 200 # Depends upon GPU memory and WIDTH and HEIGHT (Note: Batch_size for prediction can be different then for training.

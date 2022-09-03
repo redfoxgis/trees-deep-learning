@@ -1,0 +1,2 @@
+,model_path,test_frame_dir,total_patch_count,accuracy,sensitivity,loss,dice_coef,dice_loss,specificity,count_correlation,count_correlation_tvalue,area_correlation,area_correlation_tvalue
+0,/home/ubuntu/data/trained_model/trees_20220831-0447_AdaDelta_weightmap_tversky_012_256.h5,/home/ubuntu/data/outdata/preprocessing_output,48,0.9694846272468567,0.7846532464027405,0.25648626685142517,0.9645905494689941,0.03540956228971481,0.9828530550003052,0.7531138634995109,6.602937057641345e-10,0.7640352491957421,2.6546120769371896e-10
